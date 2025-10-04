@@ -7,7 +7,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-connectDB(process.env.MONGO_URI || 'mongodb://localhost:27017/mern_agents');
+connectDB(process.env.MONGO_URI);
 
 app.use('/api/auth', require('./routes/auth'));
 app.use('/api/agents', require('./routes/agents'));
