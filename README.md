@@ -61,7 +61,7 @@ mern-agent-distributor/\
 #### 1️⃣ Clone Repo
 
 ```bash
-git clone https://github.com/yourusername/mern-agent-distributor.git
+git clone https://github.com/santhosh-mce/mern-Stack-project.git
 cd mern-agent-distributor
 ```
 
